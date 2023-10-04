@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Rent r = new Rent("Maria Green", "maria@gmail.com");
-        // System.out.println(r);
-
         Rent[] vect =  new Rent[10];
 
         System.out.print("How many rooms will be rented? ");
