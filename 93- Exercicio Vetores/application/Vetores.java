@@ -1,6 +1,9 @@
+package application;
+
+import entities.Rent;
 import java.util.Scanner;
 
-public class program {
+public class Vetores {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Rent[] vect =  new Rent[10];
