@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Listas {
     public static void main(String[] args) {
@@ -47,7 +46,7 @@ public class Listas {
         // Filtrando nomes que apenas começam com a letra A
         System.out.println();
         System.out.println("Procurando apenas nomes que começam com a letra A: ");
-        List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+        List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').toList();
         for(String obj : result){
             System.out.println(obj);
         }
